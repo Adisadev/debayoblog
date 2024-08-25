@@ -1,0 +1,380 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.head{
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.logo{
+    margin-right: 60px;
+    margin-top: 10px;
+    color:rgb(244, 6, 6);
+    margin-left: 20px;
+}
+.logo span{
+    color: black;
+}
+.links ul li{
+    display: inline-flex;
+    margin-right: 90px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.links a{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+}
+.links a:hover{
+    color: red;
+}
+.search input{
+    text-align:start;
+    margin-left: 200px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    background-color: rgba(179, 179, 179, 0.852);
+    backdrop-filter: blur(10px);
+}
+.tech{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.tech img{
+    width: 70%;
+    margin-left: 10rem;
+    border-radius: 32px; 
+}
+.up{
+    width: 50%;
+    margin-left: 15rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.up h6{
+    background-color: rgba(79, 56, 193, 0.918);
+    width: fit-content;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    font-size: medium;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color: white;
+    border-radius: 8px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+.up .p{
+    margin-left: 50px;
+    margin-bottom: 40px;
+    font-size: x-large;
+}
+.up div{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.ads{
+    text-align: center;
+    background-color: rgba(174, 174, 174, 0.877);
+    width:40%;
+    margin-left: 500px;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+.ads p{
+    margin-bottom: 2px;
+    font-size: small;
+    margin-top: 20px;
+}
+.ads h5{
+    font-size: larger;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+.ads h6{
+    font-size: medium;
+    font-weight: 400;
+}
+.second h4{
+    margin-left: 25rem;
+    font-weight: 700;
+    font-size: medium;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.second p{
+    margin-left: 25rem;
+    width: 40%;
+    font-weight: 400;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+.sep{
+    text-align: center;
+    background-color: rgba(174, 174, 174, 0.667);
+    width:40%;
+    margin-left: 25rem;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+    font-size: medium;
+    font-weight: 800;
+    font-style: oblique;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 70px;
+    margin-top: 9rem;
+    margin-bottom:30px ;
+}
+.about{
+    margin-right: 40px;
+}
+.about h6{
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace,sans-serif;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.about p{
+    font-size: medium;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    width: 50%;
+}
+.about a{
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+.about a:hover{
+    color: red;
+}
+.quick h6{
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace,sans-serif;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.quick ul li{
+    list-style: none;
+    margin-bottom: 17px;
+}
+.quick ul li a{
+    text-decoration: none;
+}
+.quick a:hover{
+    color: red;
+}
+.category h6{
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace,sans-serif;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.category ul li{
+    list-style: none;
+    margin-bottom: 27px;
+}
+.category ul li a{
+    text-decoration: none;
+}
+.category a:hover{
+    color: red;
+}
+.message{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-right: 40px;
+    box-shadow: 1px 1px 1px 1px  rgba(97, 97, 97, 0.534);
+    border-radius:12px;
+    
+}
+.message h6{
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+.message p{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.mes2 input{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    text-align: start;   
+    background-color: rgba(149, 149, 149, 0.753);
+    border-radius: 8px;
+    border: 2px solid transparent;
+    margin-bottom: 20px;
+}
+.message a{
+    padding-top: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 10px;
+    background-color: blue;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+.message a:hover{
+    color: red;
+    background-color: black;
+}
+@media screen and (max-width: 768px) {
+    .head {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .links ul li {
+        margin-right: 30px;
+        margin-left: 0;
+    }
+
+    .search input {
+        margin-left: 0;
+        width: 80%;
+        text-align: center;
+    }
+
+    .up {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ads, .first, .second p, .second h4, .sep {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    img {
+        width: 80%;
+        margin-left: 10px;
+        margin-right: 60px;
+    }
+    .foot {
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin: 0;
+    }
+
+    .about, .quick, .category, .message {
+        margin: 20px 0;
+    }
+
+    .about p, .quick ul, .category ul {
+        text-align: center;
+    }
+    .about p{
+        margin-left: 9rem;
+    }
+    .message {
+        width: 80%;
+        margin-left: 30px;
+        padding-bottom: 30px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .head {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .links ul li {
+        display: block;
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .search input {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .up {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ads, .first, .second p, .second h4, .sep {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    img {
+        width: 95%;
+        margin-left: 10px;
+        margin-right: 60px;
+    }
+    .foot {
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin: 0;
+    }
+
+    .about, .quick, .category, .message {
+        margin: 20px 0;
+    }
+
+    .about p, .quick ul, .category ul {
+        text-align: center;
+    }
+    .about p{
+        margin-left: 9rem;
+    }
+    .message {
+        width: 80%;
+        margin-left: 30px;
+        padding-bottom: 30px;
+    }
+}
